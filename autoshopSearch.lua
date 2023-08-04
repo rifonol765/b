@@ -10,8 +10,7 @@ end
 wait(0.5)
 spawn(function()
    repeat wait(0.1) until  game.Loaded and game.Players.LocalPlayer.Character
-  function myfunction(a, b, c)
-    -- im doing this later
+  print("")
  end)
   task.spawn(function()
     while task.wait() do
