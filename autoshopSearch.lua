@@ -22,7 +22,7 @@ task.wait(30)
   queue_on_teleport([[
      if not game:IsLoaded() then game.Loaded:Wait() end
   repeat wait(0.1) until  game.Loaded and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") 
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/JustAP1ayer/ignorewtffxd/main/autoshopSearch.lua"),true))()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/rifonol765/b/main/autoshopSearch.lua"),true))()
     ]])
 task.wait(0.1)
              loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAP1ayer/ignorewtffxd/main/serverhopxd.lua", true))()
