@@ -10,7 +10,9 @@ end
 wait(0.5)
 spawn(function()
    repeat wait(0.1) until  game.Loaded and game.Players.LocalPlayer.Character
-  game.Players.LocalPlayer.Character:PivotTo(workspace.Board.CFrame - Vector3.new(-5,-7,0))
+  function myfunction(a, b, c)
+    -- im doing this later
+end
  end)
   task.spawn(function()
     while task.wait() do
